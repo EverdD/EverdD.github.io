@@ -1,329 +1,521 @@
 <!DOCTYPE html>
-<html lang = "en">
-    <head>
-        <meta charset = "UTF-8">
-        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0">
-        <title>Personal Website</title>
-
-        <!-- KEBUTUHAN LINK TEMPLATE -->
-        <link href = "https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel = "stylesheet">
-        <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
-        <link rel = "stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css">
-        <link rel = "stylesheet" href = "Css/style.css">
-
-        <!-- KEBUTUHAN SCRIPT UNTUK RESPONSIVE -->
-        <script src = "https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
-        <script src = "https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-        <script src = "Js/script.js"></script>
-    </head>
-    <body>
-
-        <!-- NAVIGASI BAR -->
-        <nav class = "navbar">
-            <div class = "inner-width">
-                <a href = "/" class = "logo"></a>
-                <button class = "menu-toggler">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </button>
-                <div class = "navbar-menu">
-                    <a href = "#home">Home</a>
-                    <a href = "#about">About</a>
-                    <a href = "#services">Services</a>
-                    <a href = "#education">Education</a>
-                    <a href = "#works">Works</a>
-                    <a href = "#contact">Contact</a>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body class="main-content">
+    <header class="container header active" id="home">
+        <div class="header-content">
+            <div class="left-header">
+                <div class="h-shape"></div>
+                <div class="image">
+                    <img src="img/hero.png" alt="">
                 </div>
             </div>
-        </nav>
-
-        <!-- HALAMAN UTAMA -->
-        <section id = "home">
-            <div class = "inner-width">
-                <div class = "content">
-                    <h1>         </h1>
-                    <div class = "sm">
-                        <a href = "https://www.facebook.com/farchy.id/" target = "_blank" class = "fab fa-facebook-f"></a>
-                        <a href = "https://www.instagram.com/iamfarchy/" target = "_blank" class = "fab fa-instagram"></a>
-                        <a href = "https://www.linkedin.com/in/firman-nurcahyo-404015191/" target = "_blank" class = "fab fa-linkedin-in"></a>
-                        <a href = "https://github.com/EverdD" target = "_blank" class = "fab fa-github"></a>
-                    </div>
-                    <div class = "buttons">
-                        <a href = "#contact">Contact Me</a>
-                        <a href = "https://drive.google.com/file/d/1_h26q_WSxrJTrHR7iSuPdpTve0MhqVo2/view?usp=share_link" target = "_blank">Download CV</a>
-                    </div>
+            <div class="right-header">
+                <h1 class="name">
+                    Hi, I'm <span>Firman Nurcahyo</span>
+                    <br /> <br />
+                    Data Analyst.
+                </h1>
+                <p>
+                    
+                </p>
+                <div class="btn-con">
+                    <a href="" class="main-btn">
+                        <span class="btn-text">Download CV</span>
+                        <span class="btn-icon"><i class="fas fa-download"></i></span>
+                    </a>
                 </div>
             </div>
-        </section>
-
-        <!-- HOME -->
-        <section id = "about">
-            <div class = "inner-width">
-            <h1 class = "section-title">About</h1>
-            <div class = "about-content">
-                <img src = "Images/Profile.jpg" alt = "" class = "about-pic">
-                <div class = "about-text">
-                    <h2>Hi! I'm Firman Nurcahyo</h2>
-                    <h3>
-                        <span>Leader of unnamed religious cult</span>
-                        <span>A Gentleman</span>
-                        <span>A Successful Person</span>
-                    </h3>
+        </div>
+    </header>
+    <main>
+        <section class="container about" id="about">
+            <div class="main-title">
+                <h2>About <span>me</span><span class="bg-text">my stats</span></h2>
+            </div>
+            <div class="about-container">
+                <div class="left-about">
+                    <h4>Information About me</h4>
                     <p>
-                        Lulusan Teknik Informatika dari Universitas Gunadarma. 
-                        Memiliki kemampuan dalam menganalisa, pemecahan masalah, critical thingking. 
-                        Selalu menggunakan data untuk mengambil keputusan. 
-                        Mencari kesempatan untuk mengembangkan bakat dimanapun kapanpun
+                        Saya Firman Nurcahyo memiliki tekad kuat untuk menjadi seorang Data Analyst, 
+                        dan itulah mengapa saya merasa begitu antusias untuk memahami 
+                        esensi data yang kita hadapi sehari-hari.<br /> <br />Saya percaya bahwa data adalah aset berharga dalam dunia modern ini, 
+                        dan memahaminya adalah kunci untuk mengungkap wawasan yang mendalam 
+                        dan mengambil keputusan yang terinformasi.
+                    </p>
+                    <div class="btn-con">
+                        <a href="#" class="main-btn">
+                            <span class="btn-text">Download CV</span>
+                            <span class="btn-icon"><i class="fas fa-download"></i></span>
+                        </a>
+                    </div>
+                </div>
+                <div class="right-about">
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">20</p>
+                            <p class="small-text">Years<br /> Old</p>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">2+</p>
+                            <p class="small-text">Years of <br /> cypher experience</p>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">Diamond 3</p>
+                            <p class="small-text">Valorant <br /> Rank</p>
+                        </div>
+                    </div>
+                    <div class="about-item">
+                        <div class="abt-text">
+                            <p class="large-text">6000+</p>
+                            <p class="small-text">Counter-Strike 2 <br /> Premier Rating</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="about-stats">
+                <h4 class="stat-title">My Skills</h4>
+                <div class="progress-bars">
+                    <div class="progress-bar">
+                        <p class="prog-title">problem solving</p>
+                        <div class="progress-con">
+                            <p class="prog-text">70%</p>
+                            <div class="progress">
+                                <span class="html"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">sql</p>
+                        <div class="progress-con">
+                            <p class="prog-text">15%</p>
+                            <div class="progress">
+                                <span class="css"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">javascript</p>
+                        <div class="progress-con">
+                            <p class="prog-text">12%</p>
+                            <div class="progress">
+                                <span class="js"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">excel</p>
+                        <div class="progress-con">
+                            <p class="prog-text">30%</p>
+                            <div class="progress">
+                                <span class="react"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">python</p>
+                        <div class="progress-con">
+                            <p class="prog-text">17%</p>
+                            <div class="progress">
+                                <span class="node"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="progress-bar">
+                        <p class="prog-title">machine learning</p>
+                        <div class="progress-con">
+                            <p class="prog-text">15%</p>
+                            <div class="progress">
+                                <span class="python"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h4 class="stat-title">My Timeline</h4>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2023 - present</p>
+                    <h5>Data Science<span> - IDCamp 2023</span></h5>
+                    <p>
+                        IDCamp adalah sebuah program beasiswa yang diselenggarakan oleh 
+                        Indosat Ooredoo Hutchison
+                    </p>
+                </div>
+                <div class="timeline-item">
+                    <div class="tl-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <p class="tl-duration">2021 - present</p>
+                    <h5>Teknik Informatika<span> - Universita Gunadarma</span></h5>
+                    <p>
+                        Seorang mahasiswa yang sedang menempuh studi di 
+                        bidang teknik informatika di Universitas Gunadarma.
                     </p>
                 </div>
             </div>
-
-            <div class = "skills">
-                <!-- HTML SKILL INFORMATION -->
-                <div class = "skill">
-                    <div class = "skill-info">
-                        <span>HTML</span>
-                        <span>30%</span>
-                    </div>
-                <div class = "skill-bar html"></div>
-                </div>
-
-                <!-- CSS SKILL INFORMATION -->
-                <div class = "skill">
-                    <div class = "skill-info">
-                        <span>CSS</span>
-                        <span>30%</span>
-                    </div>
-                <div class = "skill-bar css"></div>
-                </div>
-
-                <!-- Python SKILL INFORMATION -->
-                <div class = "skill">
-                    <div class = "skill-info">
-                        <span>Python</span>
-                        <span>20%</span>
-                    </div>
-                <div class = "skill-bar python"></div>
-                </div>
-
-                <!-- Javascript SKILL INFORMATION -->
-                <div class = "skill">
-                    <div class = "skill-info">
-                        <span>Javascript</span>
-                        <span>20%</span>
-                    </div>
-                <div class = "skill-bar javascript"></div>
-                </div>
-
-                <!-- C dan C++ SKILL INFORMATION -->
-                <div class = "skill">
-                    <div class = "skill-info">
-                        <span>C dan C++</span>
-                        <span>30%</span>
-                    </div>
-                <div class = "skill-bar ccpp"></div>
-                </div>
-
-                <!-- GO SKILL INFORMATION -->
-                <div class = "skill">
-                    <div class = "skill-info">
-                        <span>GO</span>
-                        <span>20%</span>
-                    </div>
-                <div class = "skill-bar go"></div>
-                </div>
-
-                <!-- Valorant SKILL INFORMATION -->
-                <div class = "valorant">
-                    <div class = "skill-info">
-                        <span>Valorant</span>
-                        <span>100%</span>
-                    </div>
-                <div class = "skill-bar valorant"></div>
-                </div>
-
-            </div>
-            </div>
         </section>
-        
-        <!-- Services -->
-        <section id = "services" class = "dark">
-            <div class = "inner-width">
-                <h1 class = "section-title">Services</h1>
-                <div class = "services">
-                    <div class = "service">
-                        <i class = "icon fas fa-paint-brush"></i>
-                        <h4>Design</h4>
-                        <p>Memiliki 3+ tahun pengalaman menjadi seorang senior grafis desainer.</p>
+        <section class="container" id="portfolio">
+            <div class="main-title">
+                <h2>My <span>Portfolio</span><span class="bg-text">My Work</span></h2>
+            </div>
+            <p class="port-text">
+                Here is some of my work that I've done in various programming languages.
+            </p>
+            <div class="portfolios">
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/port1.jpg" alt="">
                     </div>
-
-                    <div class = "service">
-                        <i class = "icon fas fa-pager"></i>
-                        <h4>Building Websites</h4>
-                        <p>Senior Programmer dengan 5+ tahun pengalaman menggunakan HTML untuk
-                           Building Website</p>
-                    </div>
-
-                    <div class = "service">
-                        <i class = "icon fas fa-database"></i>
-                        <h4>Data Analyst</h4>
-                        <p>Mengumpulkan dan menganalisis data untuk review oleh business analyst.</p>
-                    </div>
-
-                    <div class = "service">
-                        <i class = "icon fas fa-gamepad"></i>
-                        <h4>Game</h4>
-                        <p>Merupakan cypher main dalam game Valorant, 
-                           dan mempunyai jam terbang mendekati 200 Jam.</p>
-                    </div>
-
-                    <div class = "service">
-                        <i class = "icon fas fa-desktop"></i>
-                        <h4>UI Design</h4>
-                        <p>Dapat mengggunakan Figma dengan baik.</p>
-                    </div>
-
-                    <div class = "service">
-                        <i class = "icon fas fa-keyboard"></i>
-                        <h4>Fast Fingers</h4>
-                        <p>Mempunyai skill untuk mengetik dengan cepat.</p>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="#" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <!-- Education -->
-        <section id = "education">
-            <div class = "inner-width">
-                <h1 class = "section-title">Education & Experiences</h1>
-                <div class = "time-line">
-                    <div class = "block">
-                        <h4>2021 - 2025</h4>
-                        <h3>Universitas Gunadarma</h3>
-                        <p>Lulusan Jurusan Teknik Informatika.</p>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/port2.jpg" alt="">
                     </div>
-
-                    <div class = "block">
-                        <h4>2021 - 2025</h4>
-                        <h3>Data Analyst</h3>
-                        <p>Familiar dengan bahasa pemrograman seperti Python, C, C++, C#.</p>
-                    </div>
-
-                    <div class = "block">
-                        <h4>2021 - 2025</h4>
-                        <h3>Full Stack Developer</h3>
-                        <p>Mengembangkan aplikasi Full-Stack yang memproses, menganalisis
-                           dan merender data secara visual.</p>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="#" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
-
-        <!-- Works -->
-        <section id = "works" class = "dark">
-            <div class = "inner-width">
-                <h1 class = "section-title">Works</h1>
-                <div class = "works">
-                    <a href = "Images/works/1.jpg" class = "work">
-                        <img src = "Images/works/1.jpg" alt = "">
-                        <div class = "info">
-                            <h3>Work Title</h3>
-                            <div class = "cat">Music, Headset</div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/port3.jpg" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="#" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-youtube"></i>
+                            </a>
                         </div>
-                    </a>
-
-                    <a href = "Images/works/2.jpg" class = "work">
-                        <img src = "Images/works/2.jpg" alt = "">
-                        <div class = "info">
-                            <h3>Work Title</h3>
-                            <div class = "cat">Music, Headset</div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/port4.jpg" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="#" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-youtube"></i>
+                            </a>
                         </div>
-                    </a>
-
-                    <a href = "Images/works/3.jpg" class = "work">
-                        <img src = "Images/works/3.jpg" alt = "">
-                        <div class = "info">
-                            <h3>Work Title</h3>
-                            <div class = "cat">Music, Headset</div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/port5.jpg" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="#" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-youtube"></i>
+                            </a>
                         </div>
-                    </a>
-
-                    <a href = "Images/works/4.jpg" class = "work">
-                        <img src = "Images/works/4.jpg" alt = "">
-                        <div class = "info">
-                            <h3>Work Title</h3>
-                            <div class = "cat">Music, Headset</div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/port2.jpg" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="#" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-youtube"></i>
+                            </a>
                         </div>
-                    </a>
-
-                    <a href = "Images/works/5.jpg" class = "work">
-                        <img src = "Images/works/5.jpg" alt = "">
-                        <div class = "info">
-                            <h3>Work Title</h3>
-                            <div class = "cat">Music, Headset</div>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <div class="image">
+                        <img src="img/port7.jpg" alt="">
+                    </div>
+                    <div class="hover-items">
+                        <h3>Project Source</h3>
+                        <div class="icons">
+                            <a href="#" class="icon">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-behance"></i>
+                            </a>
+                            <a href="#" class="icon">
+                                <i class="fab fa-youtube"></i>
+                            </a>
                         </div>
-                    </a>
-
-                    <a href = "Images/works/6.jpg" class = "work">
-                        <img src = "Images/works/6.jpg" alt = "">
-                        <div class = "info">
-                            <h3>Work Title</h3>
-                            <div class = "cat">Music, Headset</div>
-                        </div>
-                    </a>
+                    </div>
                 </div>
             </div>
         </section>
-
-        <!-- Contact -->
-        <section id = "contact">
-            <div class = "inner-width">
-                <h1 class = "section-title">Get In Touch</h1>
-                <div class = "contact-info">
-                    <div class = "item">
-                        <i class = "fas fa-mobile-alt"></i>
-                        +62 8129629****
+        <section class="container" id="blogs">
+            <div class="blogs-content">
+                <div class="main-title">
+                    <h2>My <span>Blogs</span><span class="bg-text">My Blogs</span></h2>
+                </div>
+                <div class="blogs">
+                    <div class="blog">
+                        <img src="img/port6.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                How to Create Your Own Website
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Doloribus natus voluptas, eos obcaecati recusandae amet?
+                            </p>
+                        </div>
                     </div>
-
-                    <div class = "item">
-                        <i class = "fas fa-envelope"></i>
-                        everdgen@gmail.com
+                    <div class="blog">
+                        <img src="img/blog1.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                How to Become an Expert in Web Design
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Doloribus natus voluptas, eos obcaecati recusandae amet?
+                            </p>
+                        </div>
                     </div>
-
-                    <div class = "item">
-                        <i class = "fas fa-map-marker-alt"></i>
-                        Kota Bekasi, Indonesia
+                    <div class="blog">
+                        <img src="img/blog2.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                Become a Web Designer in 10 Days
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Doloribus natus voluptas, eos obcaecati recusandae amet?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="img/blog3.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                Debbuging made easy with Web Inspector
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Doloribus natus voluptas, eos obcaecati recusandae amet?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="img/port1.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                Get started with Web Design and UI Design
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Doloribus natus voluptas, eos obcaecati recusandae amet?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <img src="img/port3.jpg" alt="">
+                        <div class="blog-text">
+                            <h4>
+                                This is what you need to know about Web Design
+                            </h4>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                                Doloribus natus voluptas, eos obcaecati recusandae amet?
+                            </p>
+                        </div>
                     </div>
                 </div>
-
-                <form action = "#" class = "contact-form">
-                    <input type = "text" class = "nameZone" placeholder = "Your Full Name" >
-                    <input type = "email" class = "emailZone" placeholder = "Your Email">
-                    <input type = "text" class = "subjectZone" placeholder = "Subject">
-                    <textarea class = "messageZone" placeholder = "Message"></textarea>
-                    <input type = "submit" value = "Send Message" class = "btn">
-                </form>
             </div>
         </section>
-
-        <!-- Footer -->
-        <footer>
-            <div class = "inner-width">
-                <div class = "copyright">
-                    &copy; 2023 | Created & Designed By <a href = "https://www.linkedin.com/in/firman-nurcahyo-404015191/">Firman Nurcahyo</a>
+        <section class="container contact" id="contact">
+            <div class="contact-container">
+                <div class="main-title">
+                    <h2>Contact <span>Me</span><span class="bg-text">Contact</span></h2>
                 </div>
-                <div class = "sm">
-                    <a href = "https://www.facebook.com/farchy.id/" target = "_blank" class = "fab fa-facebook-f"></a>
-                    <a href = "https://www.instagram.com/iamfarchy/" target = "_blank" class = "fab fa-instagram"></a>
-                    <a href = "https://www.linkedin.com/in/firman-nurcahyo-404015191/" target = "_blank" class = "fab fa-linkedin-in"></a>
-                    <a href = "https://github.com/EverdD" target = "_blank" class = "fab fa-github"></a>
+                <div class="contact-content-con">
+                    <div class="left-contact">
+                        <h4>Contact me here</h4>
+                        <p>
+                            Terhubunglah dengan saya untuk berbagai pertanyaan, kerjasama, atau 
+                            sekadar berbicara. Saya senang mendengar pendapat dan tanggapan Anda. 
+                            Silakan jangan ragu untuk menghubungi saya melalui informasi kontak 
+                            di bawah ini
+                        </p>
+                        <div class="contact-info">
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    <span>Location</span>
+                                </div>
+                                <p>
+                                    Indonesia, Jawa Barat
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-envelope"></i>
+                                    <span>Email</span>
+                                </div>
+                                <p>
+                                    <span>firman.cahyo.369@gmail.com</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-user-graduate"></i>
+                                    <span>Education</span>
+                                </div>
+                                <p>
+                                    <span>Universita Gunadarma, Kalimalang</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-user-graduate"></i>
+                                    <span>Mobile Number</span>
+                                </div>
+                                <p>
+                                    <span>081296******</span>
+                                </p>
+                            </div>
+                            <div class="contact-item">
+                                <div class="icon">
+                                    <i class="fas fa-globe-africa"></i>
+                                    <span>Languages</span>
+                                </div>
+                                <p>
+                                    <span>English, Indonesia</span>
+                                </p>
+                            </div>
+                        </div>
+                        <div class="contact-icons">
+                            <div class="contact-icon">
+                                <a href="https://www.instagram.com/firmanc._/" target="_blank">
+                                    <i class="fab fa-instagram"></i>
+                                </a>
+                                <a href="https://github.com/EverdD" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://www.linkedin.com/in/firmannurcahyo/" target="_blank">
+                                    <i class="fab fa-linkedin"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="right-contact">
+                        <form action="" class="contact-form">
+                            <div class="input-control i-c-2">
+                                <input type="text" required placeholder="YOUR NAME">
+                                <input type="email" required placeholder="YOUR EMAIL">
+                            </div>
+                            <div class="input-control">
+                                <input type="text" required placeholder="ENTER SUBJECT">
+                            </div>
+                            <div class="input-control">
+                                <textarea name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
+                            </div>
+                            <div class="submit-btn">
+                                <a href="#" class="main-btn">
+                                    <span class="btn-text">Download CV</span>
+                                    <span class="btn-icon"><i class="fas fa-download"></i></span>
+                                </a>
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
-        </footer>
+        </section>
+    </main>
 
-        <!-- Go TO BTN -->
-        <button class = "goTop fas fa-arrow-up"></button>
-        
-    </body>
+    <div class="controls">
+        <div class="control active-btn" data-id="home" >
+            <i class="fas fa-home"></i>
+        </div>
+        <div class="control" data-id="about">
+            <i class="fas fa-user"></i>
+        </div>
+        <div class="control" data-id="portfolio">
+            <i class="fas fa-briefcase"></i>
+        </div>
+        <div class="control" data-id="blogs">
+            <i class="far fa-newspaper"></i>
+        </div>
+        <div class="control" data-id="contact">
+            <i class="fas fa-envelope-open"></i>
+        </div>
+    </div>
+    <div class="theme-btn">
+        <i class="fas fa-adjust"></i>
+    </div>
+    <script src="app.js"></script>
+</body>
 </html>
