@@ -396,11 +396,6 @@ section {
   color: var(--color-grey-2);
 }
 
-.port-text {
-  padding: 2rem 0;
-  text-align: center;
-}
-
 .portfolios {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -591,22 +586,7 @@ section {
   flex: 3;
   margin-left: 3rem;
 }
-.contact-content-con .right-contact .input-control {
-  margin: 1.5rem 0;
-}
-.contact-content-con .right-contact .input-control input, .contact-content-con .right-contact .input-control textarea {
-  border-radius: 30px;
-  font-weight: inherit;
-  font-size: inherit;
-  font-family: inherit;
-  padding: 0.8rem 1.1rem;
-  outline: none;
-  border: none;
-  background-color: var(--color-grey-5);
-  width: 100%;
-  color: var(--color-white);
-  resize: none;
-}
+
 .contact-content-con .right-contact .i-c-2 {
   display: flex;
 }
